@@ -15,12 +15,19 @@ Este repositorio contiene el desarrollo de la Semana 1 del Proyecto 3 del curso 
 - Preprocesar el dataset principal (`olist_orders_dataset.csv`) y generar un archivo limpio y transformado.
 - Documentar los resultados obtenidos.
 
+## 📌 Objetivos de la Semana 2
+
+* Implementar y comparar modelos de regresión para predecir el tiempo de entrega (`delivery_time_days`).
+* Aplicar los modelos: Regresión Lineal, Ridge Regression, Lasso Regression y Árbol de Decisión.
+* Calcular y analizar métricas de evaluación: RMSE, MAE y R².
+* Justificar la elección de modelos y preparar los resultados para presentaciones futuras.
+
 ---
 
 ## 📂 Estructura del proyecto
 
 📁 Proyecto3_MD/
-├── csv/                                                               # Archivos originales de datos
+├── csv/                                  # Archivos originales de datos
 │   ├── olist_customers_dataset.csv
 │   ├── olist_geolocation_dataset.csv
 │   ├── olist_order_items_dataset.csv
@@ -31,12 +38,12 @@ Este repositorio contiene el desarrollo de la Semana 1 del Proyecto 3 del curso 
 │   ├── olist_sellers_dataset.csv
 │   └── product_category_name_translation.csv
 │
-├── data_limpia/                                                   # Dataset limpio exportado
+├── data_limpia/                          # Dataset limpio exportado
 │   └── olist_orders_preprocesado.csv
 │
-├── main.ipynb                                                    # Notebook principal con todo el código de la Semana 1
-└── README.md                                                # Este archivo
-
+├── main.ipynb                            # Notebook principal con todo el código de Semanas 1 y 2
+├── main.pdf                              # Versión PDF del notebook
+└── README.md                             # Este archivo
 
 ## 📊 Detalle de archivos `.csv` (carpeta `csv/`)
 
@@ -83,6 +90,18 @@ Contiene todo el código de la Semana 1:
 - Creación de nuevas variables
 - Exportación del dataset limpio
 
+
+## 📓 Notebook (`main.ipynb`)📊 Resultados de la Semana 2
+
+| Modelo                           | RMSE | MAE  | R² Score |
+| -------------------------------- | ---- | ---- | --------- |
+| Regresión Lineal                | 9.34 | 5.67 | 0.13      |
+| Ridge Regression                 | 9.34 | 5.67 | 0.13      |
+| Lasso Regression                 | 9.34 | 5.67 | 0.13      |
+| Árbol de Decisión (Regresión) | 9.03 | 5.42 | 0.19      |
+
+El **Árbol de Decisión** fue el modelo con mejor desempeño en predicción, logrando el mayor R² (0.19) y el menor error RMSE (9.03).
+
 ---
 
 ## 👨‍💻 Integrantes del equipo
@@ -97,3 +116,6 @@ Contiene todo el código de la Semana 1:
 ## 🔗 Créditos
 
 Datos proporcionados por [Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce).
+
+|  |  |
+| - | - |
