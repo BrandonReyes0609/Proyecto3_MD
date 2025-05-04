@@ -28,22 +28,53 @@ Este repositorio contiene el desarrollo de la Semana 1 del Proyecto 3 del curso 
 
 📁 Proyecto3_MD/
 ├── csv/                                  # Archivos originales de datos
+
+
 │   ├── olist_customers_dataset.csv
+
+
 │   ├── olist_geolocation_dataset.csv
+
+
 │   ├── olist_order_items_dataset.csv
+
+
 │   ├── olist_order_payments_dataset.csv
+
+
 │   ├── olist_order_reviews_dataset.csv
+
+
 │   ├── olist_orders_dataset.csv
+
+
 │   ├── olist_products_dataset.csv
+
+
 │   ├── olist_sellers_dataset.csv
+
+
 │   └── product_category_name_translation.csv
+
+
 │
 ├── data_limpia/                          # Dataset limpio exportado
+
+
 │   └── olist_orders_preprocesado.csv
+
+
 │
+
+
 ├── main.ipynb                            # Notebook principal con todo el código de Semanas 1 y 2
+
+
 ├── main.pdf                              # Versión PDF del notebook
+
+
 └── README.md                             # Este archivo
+
 
 ## 📊 Detalle de archivos `.csv` (carpeta `csv/`)
 
@@ -89,7 +120,6 @@ Contiene todo el código de la Semana 1:
 - Limpieza de valores nulos
 - Creación de nuevas variables
 - Exportación del dataset limpio
-
 
 ## 📓 Notebook (`main.ipynb`)📊 Resultados de la Semana 2
 
