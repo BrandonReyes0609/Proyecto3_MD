@@ -1,6 +1,7 @@
 # Proyecto3_MD
 
 # 📦 Proyecto 3 - Minería de Datos UVG
+Video Proyecto: [https://youtu.be/E1M4jmlT2z0](https://youtu.be/E1M4jmlT2z0)
 
 **Semana 1: Preparación de Datos y Análisis Inicial**
 
